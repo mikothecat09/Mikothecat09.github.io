@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bladen | Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #667eea;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        header p {
+            color: #777;
+            font-size: 1.2rem;
+        }
+
+        .about {
+            margin-bottom: 40px;
+        }
+
+        .about h2 {
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .contact {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .contact a:hover {
+            background: #764ba2;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        @media(max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container"> 
+    
+    <header>
+        <img src="https://preview.redd.it/la4lbyqdz3hg1.jpg?width=1080&crop=smart&auto=webp&s=3b5ee0e3c7beef088533581c81dc5f8a2203e790" alt="Profile Picture">
+        <h1>Bladen</h1>
+        <p>Highschool Student | Gamer | Furry</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I am Bladen! I'm just a typical teenage boy with nothing
+            quite going on with myself. I am 16 years old and record 
+            YouTube videos, TikTok videos, and play Dungeons and Dragons with my friends. 
+            I am taken by a wonderful lady named Neena — hopefully she will be the love of my life. 
+            Any questions or wonders about me, feel free to contact me!
+        </p>
+    </section>
+
+    <section class="about">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill">Gaming</div>
+            <div class="skill">Writing</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Quick Learning</div>
+            <div class="skill">Social</div>
+            <div class="skill">Entertainment</div>
+        </div>
+    </section>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <a href="https://discord.gg/UJYv4WjFtG" target="_blank">Discord Server</a>
+        <a href="https://www.snapchat.com/add/bladenlewis22?share_id=TCxucH1xhz8&locale=en-US" target="_blank">Snapchat</a>
+        <a href="https://www.tiktok.com/@mikothecat090?_r=1&_t=ZP-94PhoHJtvvK" target="_blank">TikTok</a>
+    </div>
+
+    <footer>
+        © 2026 Bladen Lewis | All Rights Reserved
+    </footer>
+
+</div>
+
+</body>
+</html>
